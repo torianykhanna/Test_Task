@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <link rel="stylesheet" href="css/style.css" />
     <title>Document</title>
   </head>
@@ -14,11 +15,11 @@
         </div>
         <nav>
           <div class="logo"><a href="#header"><img src="img/logo.png" /></a></div>
-          <ul class="menu">
+          <ul class="navMenu">
             <li><a href="#header">главная</a></li>
-            <li><a href="#">меню</a></li>
+            <li><a href="#menu">меню</a></li>
             <li><a href="#contacts">контакты</a></li>
-            <li><a href="#">галлерея</a></li>
+            <li><a href="#galary">галлерея</a></li>
           </ul>
           <div class="contact">
             <div class="phone">
@@ -41,5 +42,38 @@
             перенесет Вас к атмосферу невероятного Тбилисси не<br /> выходя из дома. </p>
         <button class="btn">перейти к меню</button>
     </header>
+    <main>
+      <section id="menu">
+        <div>
+          <h2>Меню</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam pretium netus urna hendrerit convallis aliquam consequat turpis.</p>
+        </div>
+        <div class="slider">
+          <div class="slider-center">
+            <ul>
+              <li><span> <img src="img/rectangle22.png"></span></li>
+              <li><span> <img src="img/rectangle17.png"></span></li>
+              <li><span class="nameDishes"></span><img src="img/rectangle18.png"></li>
+              <li><span> <img src="img/rectangle19.png"></span></li>
+              <li><span> <img src="img/rectangle20.png"></span></li>
+              <li><span> <img src="img/rectangle21.png"></span></li>
+            </ul>
+          </div>
+          <div class="prev"><img src="img/leftArrow.png"></div>
+          <div class="next"><img src="img/rightArrow.png"></div>
+          
+        </div>
+      </section>
+      <section id="galary">
+        <div class="title">
+          <img class="three" src="img/sl.png">
+          <h2>Галлерея</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam pretium netus urna hendrerit convallis aliquam consequat turpis.</p>
+        </div>
+      </section>
+    </main>
+
+
+     <script src="script.js"></script>
   </body>
 </html>
