@@ -149,15 +149,17 @@ section p {
 }
 
 .slider-center ul {
+  position: relative;
   list-style: none;
   padding: 0;
   width: 100%;
   display: flex;
   align-items: center;
+  justify-content: space-around;
 }
 
 .slider-center ul li {
-  padding: 0 5px;
+  padding: 0 1px;
   transition: 0.6s;
 }
 
